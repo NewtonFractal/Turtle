@@ -50,8 +50,8 @@ def initial(iterations):
         coordinate_list_x.append(x)
         coordinate_list_y.append(y)
         turtle.setposition(x, y)
-        x = coordinate_list_y[5]
-        y = coordinate_list_y[5]
+        x = coordinate_list_x[-3]
+        y = coordinate_list_y[-3]
         turtle.setposition(x, y)
         Sierpinski(iterations)
 
