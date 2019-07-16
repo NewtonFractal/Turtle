@@ -57,7 +57,7 @@ def initial(iterations):
 
 
 
-initial(3)
+initial(15)
 
 print(coordinate_list_x)
 print(coordinate_list_y)
